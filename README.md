@@ -13,9 +13,47 @@ This is a Fast API application which depicts usage of Oauth2
   * password\
  In this application I have implemented the `password flow`.
 
-## How to implement
-* This is a example implementation
-```python
-from fastapi import FastAPI, Depends, status, HTTPException
-from fastapi.security import OAuth2PasswordRequestForm, OAuth2PasswordBearer
-```
+# Requirements, Packages used and Installation
+
+Download and install [python](https://www.python.org/downloads/). Be sure to check the checkbox add python to path.
+
+## Installation 
+Navigate to your projec directory for this case will be simple-oauth2-FastAPI.
+
+### 1. Clone repository to your local machine
+`git clone https://github.com/mbuthi/simple-oauth2-FastAPI`
+
+### 2. Create an environment
+> Check to make sure you are in the same directory where you did the git clone,if not navigate to that specific directory.
+
+Depending on your operating system, make a virtual env to prevent messing with your system's primary dependencies
+
+### Windows
+`
+cd simple-oauth2-FastAPI
+py -3 -m venv venv
+`
+
+### macOS/Linux
+`
+cd simple-oauth2-FastAPI
+python3 -m venv venv
+`
+
+### 3. Activate environment
+
+### Windows
+`
+venv\Scripts\activate
+`
+
+### macOs/Linux
+`
+source venv/bin/activate
+`
+
+### 4. Install the requirements
+`pip install -r requirements.txt`
+
+### 5. Run the application
+`uvicorn main:app --reload`
