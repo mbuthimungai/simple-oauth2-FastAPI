@@ -11,6 +11,11 @@ This is a Fast API application which depicts usage of Oauth2
   * clientCredentials
   * authorizationCode
   * password\
-  In this application I have implemented the `password flow`.
-  
-  
+ In this application I have implemented the `password flow`.
+
+## How to implement
+* This is a example implementation
+```python
+from fastapi import FastAPI, Depends, status, HTTPException
+from fastapi.security import OAuth2PasswordRequestForm, OAuth2PasswordBearer
+```
