@@ -11,6 +11,6 @@ This is a Fast API application which depicts usage of Oauth2
   * clientCredentials
   * authorizationCode
   * password\
-  In this application I have implemented the password flow the `password flow`.
+  In this application I have implemented the `password flow`.
   
   
