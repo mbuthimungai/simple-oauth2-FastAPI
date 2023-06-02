@@ -28,13 +28,13 @@ Navigate to your projec directory for this case will be simple-oauth2-FastAPI.
 
 Depending on your operating system, make a virtual env to prevent messing with your system's primary dependencies
 
-### Windows
+#### Windows
 `
 cd simple-oauth2-FastAPI
 py -3 -m venv venv
 `
 
-### macOS/Linux
+#### macOS/Linux
 `
 cd simple-oauth2-FastAPI
 python3 -m venv venv
@@ -42,12 +42,12 @@ python3 -m venv venv
 
 ### 3. Activate environment
 
-### Windows
+#### Windows
 `
 venv\Scripts\activate
 `
 
-### macOs/Linux
+#### macOs/Linux
 `
 source venv/bin/activate
 `
