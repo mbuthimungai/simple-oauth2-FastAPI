@@ -31,12 +31,16 @@ Depending on your operating system, make a virtual env to prevent messing with y
 #### Windows
 `
 cd simple-oauth2-FastAPI
+`
+`
 py -3 -m venv venv
 `
 
 #### macOS/Linux
 `
 cd simple-oauth2-FastAPI
+`
+`
 python3 -m venv venv
 `
 
